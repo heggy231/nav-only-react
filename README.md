@@ -1,6 +1,9 @@
 # nav style using React components Nav.js, Content.js
 ![nav bar](./nav-react.png)
 
+- [Demo](https://codepen.io/heggy231/pen/yLbLGoJ)
+
+
 ## Styling the nav notes:
 
 - To get rid of bullet points of `ul`: list-style-type: none
