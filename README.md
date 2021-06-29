@@ -1,4 +1,61 @@
-# Getting Started with Create React App
+# nav style using React components Nav.js, Content.js
+![nav bar](./nav-react.png)
+
+## Styling the nav notes:
+
+- To get rid of bullet points of `ul`: list-style-type: none
+
+- Make block items in-line as a row:
+    1. apply `display: flex;` to parent element and to its nested parent elements
+
+- Separate element left/right justify
+    1. on parent flex-item, apply `justify-content: space-between`
+
+- layout styling so nav items and contents have breathing room (left and right)
+    1. To center items within the page layout, set width less than 100% (ex: `width: 90%`)
+    2. Now the same element with width set, apply `margin: 0 auto`
+
+<hr>
+
+```css
+* {
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navs {
+  display: flex;
+}
+
+header {
+  background-color: lightblue;
+  padding: 20px 0;
+  margin-bottom: 14px;
+}
+
+.y-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navs li {
+  margin-left: 14px;
+}
+
+.navs li:first-of-type {
+  margin-left: 0
+}
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
